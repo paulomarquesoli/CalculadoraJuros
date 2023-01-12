@@ -1,0 +1,82 @@
+body {
+    align-items: center;
+    background-image: linear-gradient(to right, #ce7405, #c91010);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+main .calculadora {
+    background-color: #1a1818;
+    border-radius: 5px;
+    box-shadow:  5px 5px 5px #0000003a;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 400px;
+}
+
+.calculadora h1 {
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.calculadora label {
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculadora input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, #ce7405, #c91010);
+    border-image-slice: 1;
+    color: #ffffff;
+    font-size: 12pt;
+    padding: 2px;
+
+}
+
+.calculadora input:focus {
+    outline: none;
+}
+
+.calculadora .resultado {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resultado p:first-child {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    margin-top: 10px;
+}
+
+.resultado p:last-child {
+    font-size: 26pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 10px 0;
+}
+
+.calculadora button {
+    background-image: linear-gradient(to right, #ce7405, #c91010);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 40px;
+    transition: 400ms linear;
+}
+
+.calculadora button:hover {
+    scale: 1.01;
+    cursor: pointer;
+}
